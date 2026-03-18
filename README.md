@@ -23,7 +23,7 @@ AI4Good/
 │    ├── TerraTorch_HandsOn_Part2_Template.ipynb    # Empty template notebook to use for the live coding
 │    ├── label_maps.json                            # Class mapping helper file for the EuroSAT dataset
 │
-├── IntroductionToTerraTorch.pptx                   # The webinar slides
+└── IntroductionToTerraTorch.pptx                   # The webinar slides
 ```
 ---
 
@@ -31,5 +31,5 @@ AI4Good/
 To start working with the notebooks in the Google Colab environment:
 1. You need a Google account and to be logged in.
 2. Navigate to the notebook you want to work on.
-3. Click on the [Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) icon.
+3. Click on the ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) icon.
 4. Start working with TerraTorch!
