@@ -59,14 +59,14 @@ model:
   init_args:
     model_factory: EncoderDecoderFactory
     model_args:
-      backbone: prithvi_eo_v2_300
+      backbone: prithvi_eo_v2_tiny_tl
       backbone_pretrained: true
       backbone_num_frames: 1
       backbone_bands: ["BLUE", "GREEN", "RED"]
             
       necks:
         - name: SelectIndices
-          indices: [5, 11, 17, 23]
+          indices: [3, 5, 7, 12]
         - name: ReshapeTokensToImage
         - name: LearnedInterpolateToPyramidal
 
