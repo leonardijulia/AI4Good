@@ -16,12 +16,12 @@ AI4Good/
 │
 ├── HandsOn_Part1/                                  # Hands-on notebook and material for the first part
 │    ├── TerraTorch_HandsOn_Part1.ipynb             # Colab Notebook
-│    ├── aerial_dubai.yaml                          # YAML file based on the Colab Notebook
+│    └── aerial_dubai.yaml                          # YAML file based on the Colab Notebook
 │
 ├── HandsOn_Part2/                                  # Hands-on notebook and material for the second part
 │    ├── TerraTorch_HandsOn_Part2_Example.ipynb     # Example solution of the live coding part of the hands-on
 │    ├── TerraTorch_HandsOn_Part2_Template.ipynb    # Empty template notebook to use for the live coding
-│    ├── label_maps.json                            # Class mapping helper file for the EuroSAT dataset
+│    └── label_maps.json                            # Class mapping helper file for the EuroSAT dataset
 │
 └── IntroductionToTerraTorch.pptx                   # The webinar slides
 ```
