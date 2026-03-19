@@ -12,6 +12,9 @@ data:
     test_data_root: /content/demo/test/images
     test_label_data_root: /content/demo/test/labels
 
+    means: [133.00823618746747, 135.26216656497104, 138.9087738608626]
+    stds: [75.08977582295124, 76.59657858929522, 80.89887355601404]
+
     train_transform: 
       - class_path: albumentations.HorizontalFlip
         init_args:
@@ -23,11 +26,6 @@ data:
         init_args:
           height: 224
           width: 224
-      - class_path: albumentations.Normalize
-        init_args:
-          mean: [133.00823618746747, 135.26216656497104, 138.9087738608626]
-          std: [75.08977582295124, 76.59657858929522, 80.89887355601404]
-          max_pixel_value: 1.0
       - class_path: albumentations.pytorch.ToTensorV2
     
     val_transform:
@@ -35,11 +33,6 @@ data:
         init_args:
           height: 224
           width: 224
-      - class_path: albumentations.Normalize
-        init_args:
-          mean: [133.00823618746747, 135.26216656497104, 138.9087738608626]
-          std: [75.08977582295124, 76.59657858929522, 80.89887355601404]
-          max_pixel_value: 1.0
       - class_path: albumentations.pytorch.ToTensorV2
 
     test_transform:
@@ -47,11 +40,6 @@ data:
         init_args:
           height: 224
           width: 224
-      - class_path: albumentations.Normalize
-        init_args:
-          mean: [133.00823618746747, 135.26216656497104, 138.9087738608626]
-          std: [75.08977582295124, 76.59657858929522, 80.89887355601404]
-          max_pixel_value: 1.0
       - class_path: albumentations.pytorch.ToTensorV2
 
 model:
