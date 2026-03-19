@@ -54,7 +54,7 @@ model:
             
       necks:
         - name: SelectIndices
-          indices: [3, 5, 7, 12]
+          indices: [3, 5, 7, 11]
         - name: ReshapeTokensToImage
         - name: LearnedInterpolateToPyramidal
 
