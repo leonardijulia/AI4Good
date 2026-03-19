@@ -32,4 +32,5 @@ To start working with the notebooks in the Google Colab environment:
 1. You need a Google account and to be logged in.
 2. Navigate to the notebook you want to work on.
 3. Click on the ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) icon.
-4. Start working with TerraTorch!
+4. In the Colab environment, choose *Runtime --> Change runtime type* in the dialog, choose a runtime with GPU. 
+5. Start working with TerraTorch!
